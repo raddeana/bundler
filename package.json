@@ -1,0 +1,22 @@
+{
+  "name": "bundler",
+  "version": "0.0.1",
+  "description": "bundler simple practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bundler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raddeana/bundler.git"
+  },
+  "author": "Philip",
+  "license": "ISC",
+  "homepage": "https://github.com/raddeana/bundler#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/parser": "^7.13.9",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/traverse": "^7.13.0"
+  }
+}
